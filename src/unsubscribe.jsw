@@ -1,0 +1,15 @@
+import wixData from 'wix-data';
+
+export async function unsubscribe(email){
+	let user = await wixData.query("multiStepJobApplication")
+					.eq("email", email)
+					.find()
+					.then( (results) => {
+						return results.items[0]
+					}).catch( err =>{
+						console.log(err)
+					});
+
+	wixData.remove("multiStepJobApplication", user._id).catch(err => {console.log(err)})
+	return "removed email " + email;
+}
