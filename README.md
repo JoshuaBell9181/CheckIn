@@ -11,6 +11,7 @@ We all have good intentions but actions speak louder than words. With CheckIn we
 - npm nodemailer
 - JavaScript
 - github
+- GMail
 
 # Data Model
 ![](./dataModel.png)
