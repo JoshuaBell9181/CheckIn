@@ -1,6 +1,8 @@
 # CheckIn
 This is for the Hack-it-out hackathon
 
+[Hackathon Submission with video explanation](https://devpost.com/software/checkin-3629mw?ref_content=my-projects-tab&ref_feature=my_projects)
+
 [Visit Our Site](https://joshbell9181.wixsite.com/checkin)
 
 # About
